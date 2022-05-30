@@ -1,0 +1,43 @@
+.careers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    color: #fff;
+
+    h1 {
+        margin-bottom: 1rem;
+    }
+}
+
+.opportunity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 3rem 3rem;
+    margin: 1rem;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+
+    h1 {
+        text-align: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-right: 2rem;
+    }
+
+    &:hover {
+        background-color: #fff;
+        color: #000;
+        transition: 1s ease-in;
+    }
+
+    .description {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
